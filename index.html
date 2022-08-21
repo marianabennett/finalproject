@@ -14,6 +14,7 @@
   </head>
   <body>
 
+    <div class="newtask">
     <form>
         <div class="row" style="position:center" >
           <div class="col">
@@ -59,6 +60,73 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </div>
+      </div>
+    </div>
+        <br>
+        <br>
+
+ <!--Zabi's Code -->
+<div class="tasklist">
+ <table class="table table-striped">
+  <thead class="bg-primary">
+    <tr>
+      <th class="mainH" colspan="6">Task List</th>
+    </tr>
+  </thead>
+  <thead class="bg-primary">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Date</th>
+      <th scope="col">Task Name</th>
+      <th scope="col">Description</th>
+      <th scope="col">Priority</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Zabi Safi</th>
+      <td>December 10, 2022</td>
+      <td>Software</td>
+      <td>Software needs to be updated</td>
+      <td>High</td>
+      <td><select id="dropdown" onChange="showHide()">
+        <option value="A">New</option>
+        <option value="B">In Progress</option>
+        <option value="C">Complete</option>
+    </select>
+  </td>
+    </tr>
+    <tr>
+      <th scope="row">Mariana </th>
+      <td>December 10, 2022</td>
+      <td>Software</td>
+      <td>Software needs to be updated</td>
+      <td>High</td>
+      <td><select id="dropdown" onChange="showHide()">
+        <option value="A">New</option>
+        <option value="B">In Progress</option>
+        <option value="C">Complete</option>
+    </select>
+  </td>
+    </tr>
+    <tr>
+      <th scope="row">Najibullah Safi</th>
+      <td>December 10, 2022</td>
+      <td>Software</td>
+      <td>Software needs to be updated</td>
+      <td>Low</td>
+      <td><select id="dropdown" onChange="showHide()">
+        <option value="A">New</option>
+        <option value="B">In Progress</option>
+        <option value="C">Complete</option>
+    </select>
+  </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
   </body>
 </html>
